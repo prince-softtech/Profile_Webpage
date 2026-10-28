@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: auto;
+    background-color: #322C2B;
+}
+
+nav{
+    height: 80px;
+}
+
+nav img{
+    /* float: left; */
+    padding: 8px;
+    height: 70px;
+}
+/* nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    color: orangered;
+} */
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-weight: 500;
+    list-style: none;
+    padding: 0px 8px ;
+}
+
+nav ul li a{
+    color: #E4C59E;
+    text-decoration:none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 7px 8px ;
+}
+
+nav ul li a:hover{
+    color: #AF8260;
+    transition: 0.5s ease;
+}
+
+nav ul li .active {
+    background-color: #803D3B;
+}
+
+
+/* Social-Media-Contact-Card */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: white;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150,150,150,.3);
+    transition: all .5s ease-out;
+}
+
+.icon a{
+    text-decoration: none;
+}
+
+.icon:hover{
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.icon:hover i{
+    color: white;
+}
+
+.snapchat:hover{
+    background-color: #FFFC00;
+} 
+
+.instagram:hover{
+    background-color: #405DE6;
+} 
+
+.phone:hover{
+    background-color: #424242;
+} 
+
+.telegram:hover{
+    background-color: #0088cc;
+} 
+
+.gmail:hover{
+    background-color: #0000EE;
+} 
+
+
+/* footer */
+
+footer {
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    background-color: #322C2B;
+
+}
+
+footer .Contacts {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .Contacts a{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #E4C59E;
+}
+
+footer .copyright{
+    text-align: center;
+    color: #E4C59E;
+    font-size: 15px;
+}
+

@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.20),rgba(0,0,0,0.20)), url("./imgs/landing-image-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+nav{
+    height: 80px;
+}
+
+nav img{
+    /* float: left; */
+    padding: 8px;
+    height: 70px;
+}
+/* nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    color: orangered;
+} */
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-weight: 500;
+    list-style: none;
+    padding: 0px 8px ;
+}
+
+nav ul li a{
+    color: rgb(233, 179, 107);
+    text-decoration:none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 7px 8px ;
+}
+
+nav ul li a:hover{
+    color: rgb(243, 83, 25);
+    transition: 0.5s ease;
+}
+
+nav ul li .active {
+    background-color: black;
+}
+
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h1{
+    font-size: 36px;
+    /* color: black; */
+    color: #4a1717;
+    letter-spacing: 1.4px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.article p{
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: 550;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.article .btn{
+    color: aliceblue;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.article .btn:hover{
+    background-color: rgb(233, 179, 107);
+    transition: 0.5s ease;
+    color: rgba(0, 0, 0, 0.965);
+
+}
+
+/* footer */
+
+footer {
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    background-color: dimgray;
+
+}
+
+footer .Contacts {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .Contacts a{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .copyright{
+    text-align: center;
+    font-size: 15px;
+}
+
